@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "copy":"gulp copy",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
@@ -18,6 +19,8 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "copyfiles": "^2.1.0",
+    "gulp": "^4.0.0",
     "prettier": "1.16.4"
   },
   "repository": {
